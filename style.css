@@ -1,0 +1,70 @@
+.fonte-navbar {
+    color: azure;
+    font-family: Source Sans Pro, sans-serif;
+  }
+
+  .cor-navbar {
+    background-color: #011c39;
+  }
+
+  .logo-nav {
+    width: 80px;
+    height: 60px;
+  }
+
+  .navbar {
+    height: auto;
+    min-height: 90px;
+  }
+
+  .espacamento-topo {
+    margin-top: 40px;
+  }
+
+  .imagem-direita {
+    margin-left: 90px; 
+    height: 100%;
+    width: 400px;
+  }
+
+  .imagem-esquerda {
+    margin-right: 90px; 
+    height: 100%;
+    width: 400px;
+  }
+  
+  .fundo-site {
+    background-color: rgb(240, 240, 240)
+  }
+
+  .fonte-texto-index{
+    font-family:Source Sans Pro, sans-serif;
+  }
+
+  
+  .fonte-texto-registro{
+    color: azure;
+    font-family:Source Sans Pro, sans-serif;
+  }
+
+  .espacamento-card{
+    margin-left: 15px;
+  }
+
+  .card-imagem {
+    height: 230px; 
+    object-fit: cover;
+  }
+
+body {
+    background-color: #011c39;
+ }
+
+
+ .fonte{
+  color: #fff;
+ }
+
+.card-body {
+    background-color: #ff5252;
+ }
