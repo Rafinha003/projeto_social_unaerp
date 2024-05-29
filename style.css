@@ -68,3 +68,12 @@ body {
 .card-body {
     background-color: #ff5252;
  }
+
+ .alinhar-titulo-paragrafo-registro-centro{
+  margin-left: 280px;
+  width: 100%;
+ }
+
+.texto-esquerda{
+  margin-left: 90px;
+}
