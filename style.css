@@ -77,3 +77,11 @@ body {
 .texto-esquerda{
   margin-left: 90px;
 }
+
+.retangulo{
+  background-color: #011c39;
+  width: 100%; 
+  height: 100%; 
+  padding-top: 5px; 
+  padding-bottom: 15px;
+}
