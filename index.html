@@ -91,7 +91,7 @@
           Seja doando alimentos, utensílos, ou até mesmo seu tempo como voluntário, cada gesto faz a difrença.
           Juntos, podemos ampliar nosso alcance e proporcionar mais esperança a aqueles que mais precisam. 
         </p>
-        <button style="margin-left: 90px;  background-color: #011c39;  color: azure;" class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasContato" aria-controls="offcanvasContato">
+        <button style="margin-left: 90px;  background-color: rgb(163, 168, 178);  color: azure;" class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasContato" aria-controls="offcanvasContato">
           Entre em contato conosco
         </button>
       </div>
@@ -154,6 +154,9 @@
           é uma luz de esperança para aqueles que enfrentam fome.
           Com sua generosidade, podemos construir junto uma comunidade mais forte , onde ningúem seja deixado para trás 
         </p>
+        <button style="margin-right: 90px;    background-color: #011c39;  color: azure;" class="btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Faça sua doação aqui
+        </button>
       </div>
       <div class="col-lg-6">
         <img
@@ -161,6 +164,74 @@
           class="imagem-direita"
           alt="Minha Foto"
         />
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Doação</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Doação 10 reais
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                 <img src="./pix10reais.jpg" alt="doação 10 reais" style="width: 80%; height: 100%;  padding-left: 65px;">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Doação 50 reais
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <img src="./pix50Reais.jpg" alt="doação 10 reais" style="width: 80%; height: 100%;  padding-left: 65px;">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                 Doação 100 reais
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <img src="./pix100reais.jpg" alt="doação 10 reais" style="width: 80%; height: 100%;  padding-left: 65px;">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                 Doe qualquer valor
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <img src="./pixQualquerValor.jpg" alt="doação 10 reais" style="width: 80%; height: 100%;  padding-left: 65px;">
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
       </div>
     </div>
   </div>
@@ -198,7 +269,8 @@
       alt="Minha Foto"
     />
       <div class="navbar-nav ms-auto" id="navbarNav">
-     <span class="fonte-navbar" style="padding-left: 180px;">  <a class="baixar-pdf text-end" href="./info_projeto.pdf " download>Baixe nosso pdf sobre nossas informação</a>
+     <span class="fonte-navbar" style="padding-left: 180px;">  
+      <a class="baixar-pdf text-end" href="./info_projeto.pdf " download>Clique aqui e baixe nosso pdf sobre nossas informação</a>
       </div>
     </div>
   </nav>
