@@ -1,93 +1,53 @@
+.fundo-site {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+.cor-navbar {
+  background: linear-gradient(45deg, #0057a3, #017bfe);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#a {
+  color: white;
+}
 .fonte-navbar {
-    color: azure;
-    font-family: Source Sans Pro, sans-serif;
-  }
-
-  .cor-navbar {
-    background-color: #011c39;
-  }
-
-  .logo-nav {
-    width: 80px;
-    height: 60px;
-  }
-
-  .navbar {
-    height: auto;
-    min-height: 90px;
-  }
-
-  .espacamento-topo {
-    margin-top: 40px;
-  }
-
-  .imagem-direita {
-    margin-left: 90px; 
-    height: 100%;
-    width: 400px;
-  }
-
-  .imagem-esquerda {
-    margin-right: 90px; 
-    height: 100%;
-    width: 400px;
-  }
-  
-  .fundo-site {
-    background-color: rgb(240, 240, 240)
-  }
-
-  .fonte-texto-index{
-    font-family:Source Sans Pro, sans-serif;
-  }
-
-  
-  .fonte-texto-registro{
-    color: azure;
-    font-family:Source Sans Pro, sans-serif;
-  }
-
-  .espacamento-card{
-    margin-left: 15px;
-  }
-
-  .card-imagem {
-    height: 230px; 
-    object-fit: cover;
-  }
-
-body {
-    background-color: #011c39;
- }
-
-
- .fonte{
-  color: #fff;
- }
-
-.card-body {
-    background-color: #ff5252;
- }
-
- .alinhar-titulo-paragrafo-registro-centro{
-  margin-left: 280px;
-  width: 100%;
- }
-
-.texto-esquerda{
-  margin-left: 90px;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.1em;
 }
-
-.retangulo{
+.fonte-texto {
+  font-family: 'Arial', sans-serif;
+  margin-top: 1rem;
+}
+.espacamento-topo {
+  margin-top: 2rem;
+}
+.retangulo {
+  background-color: #f1f3f5;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-custom {
+  background-color: #017BFE;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+}
+.btn-custom:hover {
+  background-color: #0167d0;
+}
+.text-center-custom {
+  text-align: center;
+}
+.rounded-img {
+  border-radius: 15px;
+}
+.navbar-brand-custom {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+footer {
+  margin-top: 5px;
   background-color: #011c39;
-  width: 100%; 
-  height: 100%; 
-  padding-top: 5px; 
-  padding-bottom: 15px;
-}
-
-
-.baixar-pdf{
-  color: #fff;
-  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
 }
